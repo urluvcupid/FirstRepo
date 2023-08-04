@@ -25,29 +25,3 @@ def get_user_text(message):
     elif message.text == "Как дела?":
         bot.send_message(message.chat.id, "Кайфы")
 
-
-
-
-
-
-
-
-bot.polling(none_stop=True)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
